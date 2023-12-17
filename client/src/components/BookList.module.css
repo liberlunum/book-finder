@@ -1,0 +1,38 @@
+.bookList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.bookLink {
+    display: flex;
+    flex-direction: column;
+    font-family: Copperplate;
+    font-size: 25px;
+    padding: 3px;
+    }
+
+.bookContainer {
+    display: flex;
+    margin: 5px;
+    padding-left: 50px;
+    width: 600px;
+}
+
+.bookContainer:hover {
+    border-radius: 60px;
+    cursor: pointer;
+    background-color: #d7c9f6;
+    width: 600px
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-left: 5px;
+    color: #2d1e3b;
+}

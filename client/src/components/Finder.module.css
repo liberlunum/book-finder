@@ -1,0 +1,31 @@
+.finder {
+    padding: 10px;
+    margin: 10px
+}
+.input {
+    margin: 2px;
+    padding: 9px 10px 9px 20px;
+    width: 500px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    box-shadow: 0 0 3px gray;
+    font-family: Copperplate;
+    font-size: 12px;
+}
+.input[type=text]:focus {
+    border: 1.5px solid #996fd6;
+    outline: none;
+}
+.button {
+    margin: 2px;
+    font-family: Copperplate;
+    background-color: #a786db;
+    border-radius: 50px;
+    padding: 8px;
+    border: none;
+    box-shadow: 0 0 5px gray
+}
+.button:hover {
+    cursor: pointer;
+    background-color: #c4a7f3;
+}

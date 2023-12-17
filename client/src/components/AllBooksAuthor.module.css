@@ -1,0 +1,55 @@
+.someBooksContainer {
+    margin: 50px auto 20px auto;
+    width: 41%;
+}
+.titleBookLine {
+    background-color: #70588d;
+    font-family: Copperplate;
+    font-size: 25px;
+    color: white;
+    border: 0.5px solid gray;
+    border-radius: 50px;
+    box-shadow: 0 0 2px gray;
+    margin: 3px;
+    padding: 2px;
+}
+.titleBookLine:hover {
+    cursor: pointer;
+}
+
+.oneBookLine {
+    display: flex;
+    align-items: center;
+    background-color: #a786db;
+    font-family: Copperplate;
+    border: 0.5px solid gray;
+    border-radius: 50px;
+    box-shadow: 0 0 2px gray;
+    margin: 3px;
+    padding: 2px;
+}
+
+.oneBookLine:hover {
+    cursor: pointer;
+    background-color: #c4a7f3;
+}
+
+.oneBookTitle {
+    margin: 2px 5px 2px 25px;
+    font-size: 17px;
+}
+.oneBookAuthor {
+    margin: 2px 5px 2px 5px;
+    font-weight: lighter;
+    font-size: 13px;
+}
+/*
+
+.oneBookLineInformation {
+    display: flex;
+
+    width: 100%;
+    text-align: justify;
+}
+*/
+

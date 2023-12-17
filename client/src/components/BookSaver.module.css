@@ -1,0 +1,41 @@
+.saverContainer {
+    display: flex;
+    align-items: center;
+    margin: 40px auto 40px auto;
+    padding: 5px;
+    background-color: #c2b3e5;
+    width: 40%;
+    border: 0.5px solid gray;
+    border-radius: 50px;
+    box-shadow: 0 0 2px gray;
+    font-family: Copperplate;
+
+}
+
+.save {
+    font-size: 33px;
+    margin-right: 10px;
+    margin-left: 30px;
+    font-weight: lighter;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+.buttonSave {
+    display: flex;
+    border-radius: 15px;
+    padding: 2px 7px 2px 7px;
+    font-family: Copperplate;
+    font-size: 17px;
+    margin: 2px;
+    background-color: #a786db;
+    border: none;
+    box-shadow: 0 0 2px gray;
+    font-weight: lighter;
+}
+.buttonSave:hover {
+    cursor: pointer;
+    background-color: #c4a7f3;
+}
